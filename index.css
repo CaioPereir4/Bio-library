@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Playfair';
+    src: url('/assets/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+p{  
+    font-family: Playfair ;
+    color: black;
+    font: bold;
+    font-size: 15px;
+}
+body{ 
+    background-color: rgb(240, 240, 240);
+}
+nav{
+    background-image: linear-gradient( to left,#027373,#038C7F);
+    width: 100%;
+    height: 120px;
+    column-count: 3;  
+    column-gap: 20px;
+    column-rule: 4px rgb(79, 185, 227);
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin: 5px;
+}
+#nav-tittle{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+#nav-description{
+    text-align: center;
+
+    color: white;
+}
+
+
+#nav-tittle:hover{
+    color: rgb(209, 209, 209);
+    cursor: pointer;
+}
+
+#sub-tittle:hover{
+    color: rgb(209, 209, 209);
+    cursor: pointer;
+}
+
+#sub-tittle{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    
+}
+
+#main-img{
+    margin:auto;
+    height: 100px;
+    padding: 5px;
+    display: block  ;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+
+
+main{
+    background-color: #FFFF  ;
+    display: block;
+    margin: auto;
+    border-radius: 6px;
+    height: 100%;
+    width: 60%;
+    padding: 5px;
+}
+
+
+.img-buttons{
+    width: 30px;
+    height: 20px;
+}
+
+#main-buttons{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#search-text{
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    border-color: #038C7F;
+    width: 150px;
+    height: 30px;
+}
+
+#search-icon{
+    margin: auto;
+}
+.img-buttons:hover{
+    cursor: pointer;
+
+}
+
+.buttons:hover{
+    cursor: pointer;
+    height: 40px;
+    background-color: rgb(209, 209, 209);
+}
+
+#content{
+    text-align: right;
+    padding: 10px;
+}
+
+#banner-livro{
+    background-color: black;
+    width: 130px;
+    height: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+
+#p-book{
+    margin: 10px;
+
+}
+.livros{
+    display: block;
+    margin: auto;
+
+}
+
+
+button{
+    background: #027373;
+
+    color: white;
+    
+    border-style: outset;
+    
+    border-color: #009da2;
+    
+    height: 30px;
+    
+    width: 80px;
+
+    border-radius: 10px;
+    
+    margin: 10px;
+    }
+
+button:hover{
+    cursor: pointer;
+    background-color: #016164;
+    cursor: pointer;
+
+}
+
+.controlIcons{
+    display: inline;
+}
